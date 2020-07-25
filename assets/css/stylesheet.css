@@ -7,12 +7,35 @@
 }
 /*#endregion*/
 
+/*#region body*/
 #body {
   background-color: #ebd28d;
 }
+/*#endregion*/
 
-
-#test {
-  font-family: 'Indie Flower', cursive;
-  font-size:30px;
+/*#region title section*/
+#title-section {
+  background-color: aqua;
+  width:100%;
+  height:auto;
+  padding-top:5vh;
+  padding-bottom:5vh;
+  text-align:center;
 }
+#title {
+  font-family:Helvetica, sans-serif;
+  font-size:50px;
+}
+/*#endregion*/
+
+/*#region button*/
+#button-section {
+  height:20vh;
+  background-color: yellow;
+}
+
+#randomizer-button {
+  width:200px;
+  height:80px;
+}
+/*#endregion*/
