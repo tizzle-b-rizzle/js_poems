@@ -31,11 +31,24 @@
 /*#region button*/
 #button-section {
   height:20vh;
-  background-color: yellow;
+  background-color: #ebd28d;
 }
 
 #randomizer-button {
-  width:200px;
-  height:80px;
+  background-color: green;
+  width:10vw;
+  min-height:100%;
+  margin-left: 45vw;
+  font-size: 16px;
+  border:2px solid red;
+}
+/*#endregion*/
+
+/*#region poems*/
+#poem-section {
+  width:80vw;
+  height:auto;
+  margin-left: 10vw;
+  background-color: red;
 }
 /*#endregion*/
