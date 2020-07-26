@@ -13,6 +13,14 @@
 }
 /*#endregion*/
 
+/*#region small seperator*/
+.small-seperator {
+  width:100%;
+  height:5vh;
+  background-color: #ebd28d;
+}
+/*#endregion*/
+
 /*#region title section*/
 #title-section {
   background-color: aqua;
@@ -25,6 +33,18 @@
 #title {
   font-family:Helvetica, sans-serif;
   font-size:50px;
+}
+/*#endregion*/
+
+/*#region title of poem section*/
+#title-of-poem-section {
+  height:10vh;
+  width:100%;
+  background-color: red;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  padding-top:10px;
 }
 /*#endregion*/
 
@@ -45,6 +65,7 @@
 #randomizer-button:hover {
   background-color: black;
   color:#ebd28d;
+  cursor: pointer;
 }
 /*#endregion*/
 
@@ -53,7 +74,7 @@
   width:60vw;
   height:auto;
   margin-left: 20vw;
-  background-color: red;
+  background-color: #ebd28d;
 }
 
 #poem {

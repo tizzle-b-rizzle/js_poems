@@ -562,13 +562,35 @@ poemSymbols,
 poemFoolsTheLotOfYou,
 poemMyMessage,
 poemRipple,
-poemANewChapter] //List full of the variables of Luke's poems
+poemANewChapter
+] //List full of the variables of Luke's poems
+
+var titleOfLukesPoems =
+["Storm",
+"My Friend",
+"Road Trip of Life",
+"Hangover Hotel",
+"Burning Unkown",
+"Need or Want",
+"Doctor Good Love",
+"Deja Vu",
+"What if",
+"Join Me",
+"Symbols",
+"Fools, the Lot of You",
+"My Message",
+"Ripple",
+"A New Chapter"
+]
 
 var randomNumber = Math.floor(Math.random() * (listOfLukesPoems.length)); //generates a random number between 0 and the length of the list of the poems
 
 function test() { //function changes the text in the html div "poem" to a random item out of the listOfLukesPoems array
     var poem = document.getElementById('poem');
     poem.innerHTML = listOfLukesPoems[randomNumber]
+
+    var poemTitle = document.getElementById('title-of-poem');
+    poemTitle.innerHTML = titleOfLukesPoems[randomNumber]
 }
 
 //stuff to ask Riz: how to get the HTML to have spaces between lines, ask if I could have stored all of the poems in a seperate js file and if that would tsill work (I'd only do this if I couldn't use VS code probs)
