@@ -23,7 +23,7 @@
 
 /*#region title section*/
 #title-section {
-  background-color: aqua;
+  background-color: #ebd28d;
   width:100%;
   height:auto;
   padding-top:5vh;
@@ -33,6 +33,7 @@
 #title {
   font-family:Helvetica, sans-serif;
   font-size:40px;
+  text-decoration: underline;
 }
 /*#endregion*/
 
@@ -40,7 +41,7 @@
 #title-of-poem-section {
   height:10vh;
   width:100%;
-  background-color: red;
+  background-color: #ebd28d;
   text-align: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 20px;
